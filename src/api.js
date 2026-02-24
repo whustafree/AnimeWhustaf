@@ -1,11 +1,50 @@
 // src/api.js
-export const getAnimes = async () => {
+export const getLatestEpisodes = async () => {
   return [
-    { id: 1, title: "Solo Leveling", episodes: 12, image: "https://www3.animeflv.net/uploads/animes/covers/3924.jpg", desc: "En un mundo donde cazadores deben luchar contra monstruos...", genre: "Acción" },
-    { id: 2, title: "Ninja Kamui", episodes: 13, image: "https://www3.animeflv.net/uploads/animes/covers/3938.jpg", desc: "Un ex-ninja busca venganza contra su antiguo clan.", genre: "Acción" },
-    { id: 3, title: "One Piece", episodes: 1100, image: "https://www3.animeflv.net/uploads/animes/covers/1.jpg", desc: "Monkey D. Luffy busca el tesoro definitivo.", genre: "Aventura" },
-    { id: 4, title: "Jujutsu Kaisen", episodes: 24, image: "https://www3.animeflv.net/uploads/animes/covers/3353.jpg", desc: "Maldiciones y hechiceros en una batalla épica.", genre: "Sobrenatural" },
-    { id: 5, title: "Naruto Shippuden", episodes: 500, image: "https://www3.animeflv.net/uploads/animes/covers/2.jpg", desc: "Naruto busca rescatar a Sasuke y convertirse en Hokage.", genre: "Ninja" },
-    { id: 6, title: "Bleach: TYBW", episodes: 26, image: "https://www3.animeflv.net/uploads/animes/covers/3716.jpg", desc: "La guerra final entre Shinigamis y Quincies.", genre: "Acción" },
+    { 
+      id: "solo-leveling-12", 
+      animeId: 1, 
+      title: "Solo Leveling", 
+      episode: 12, 
+      type: "Final", 
+      image: "https://www3.animeflv.net/uploads/animes/covers/3924.jpg",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    },
+    { 
+      id: "ninja-kamui-5", 
+      animeId: 2, 
+      title: "Ninja Kamui", 
+      episode: 5, 
+      type: "Nuevo", 
+      image: "https://www3.animeflv.net/uploads/animes/covers/3938.jpg",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    },
+    { 
+      id: "one-piece-1100", 
+      animeId: 3, 
+      title: "One Piece", 
+      episode: 1100, 
+      type: "Nuevo", 
+      image: "https://www3.animeflv.net/uploads/animes/covers/1.jpg",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    },
+    { 
+      id: "jujutsu-24", 
+      animeId: 4, 
+      title: "Jujutsu Kaisen", 
+      episode: 24, 
+      type: "Nuevo", 
+      image: "https://www3.animeflv.net/uploads/animes/covers/3353.jpg",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    },
+    { 
+      id: "frieren-28", 
+      animeId: 7, 
+      title: "Sousou no Frieren", 
+      episode: 28, 
+      type: "Final", 
+      image: "https://www3.animeflv.net/uploads/animes/covers/3860.jpg",
+      url: "https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    },
   ];
 };
